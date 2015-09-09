@@ -14,6 +14,18 @@
 		F28BD6B31BA0E7E100861787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28BD6B21BA0E7E100861787 /* Images.xcassets */; };
 		F28BD6B61BA0E7E100861787 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28BD6B41BA0E7E100861787 /* LaunchScreen.xib */; };
 		F28BD6C21BA0E7E100861787 /* Lab2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F28BD6C11BA0E7E100861787 /* Lab2Tests.m */; };
+		F28BD6CC1BA0EB9A00861787 /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6CB1BA0EB9A00861787 /* SpeechKit.framework */; };
+		F28BD6D81BA0EC0000861787 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6CD1BA0EC0000861787 /* AudioToolbox.framework */; };
+		F28BD6DA1BA0EC0000861787 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6CF1BA0EC0000861787 /* AVFoundation.framework */; };
+		F28BD6DC1BA0EC0000861787 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6D11BA0EC0000861787 /* CFNetwork.framework */; };
+		F28BD6E01BA0EC0000861787 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6D51BA0EC0000861787 /* Security.framework */; };
+		F28BD6E11BA0EC0000861787 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6D61BA0EC0000861787 /* SystemConfiguration.framework */; };
+		F28BD6E21BA0EC0000861787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6D71BA0EC0000861787 /* UIKit.framework */; };
+		F28BD6E41BA0EC7300861787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6E31BA0EC7300861787 /* Foundation.framework */; };
+		F28BD6E61BA0EC8100861787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28BD6E51BA0EC8100861787 /* CoreGraphics.framework */; };
+		F28BD6F01BA0EFB300861787 /* earcon_cancel.wav in Resources */ = {isa = PBXBuildFile; fileRef = F28BD6ED1BA0EFB300861787 /* earcon_cancel.wav */; };
+		F28BD6F11BA0EFB300861787 /* earcon_done_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = F28BD6EE1BA0EFB300861787 /* earcon_done_listening.wav */; };
+		F28BD6F21BA0EFB300861787 /* earcon_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = F28BD6EF1BA0EFB300861787 /* earcon_listening.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,23 @@
 		F28BD6BB1BA0E7E100861787 /* Lab2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28BD6C01BA0E7E100861787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F28BD6C11BA0E7E100861787 /* Lab2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab2Tests.m; sourceTree = "<group>"; };
+		F28BD6CB1BA0EB9A00861787 /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = DragonMobileSDK_1.4.19/SpeechKit.framework; sourceTree = "<group>"; };
+		F28BD6CD1BA0EC0000861787 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F28BD6CE1BA0EC0000861787 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		F28BD6CF1BA0EC0000861787 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F28BD6D01BA0EC0000861787 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		F28BD6D11BA0EC0000861787 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F28BD6D21BA0EC0000861787 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F28BD6D31BA0EC0000861787 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		F28BD6D41BA0EC0000861787 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F28BD6D51BA0EC0000861787 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F28BD6D61BA0EC0000861787 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F28BD6D71BA0EC0000861787 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F28BD6E31BA0EC7300861787 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F28BD6E51BA0EC8100861787 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F28BD6ED1BA0EFB300861787 /* earcon_cancel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_cancel.wav; sourceTree = "<group>"; };
+		F28BD6EE1BA0EFB300861787 /* earcon_done_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_done_listening.wav; sourceTree = "<group>"; };
+		F28BD6EF1BA0EFB300861787 /* earcon_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = earcon_listening.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28BD6E61BA0EC8100861787 /* CoreGraphics.framework in Frameworks */,
+				F28BD6E41BA0EC7300861787 /* Foundation.framework in Frameworks */,
+				F28BD6D81BA0EC0000861787 /* AudioToolbox.framework in Frameworks */,
+				F28BD6DA1BA0EC0000861787 /* AVFoundation.framework in Frameworks */,
+				F28BD6DC1BA0EC0000861787 /* CFNetwork.framework in Frameworks */,
+				F28BD6E01BA0EC0000861787 /* Security.framework in Frameworks */,
+				F28BD6E11BA0EC0000861787 /* SystemConfiguration.framework in Frameworks */,
+				F28BD6E21BA0EC0000861787 /* UIKit.framework in Frameworks */,
+				F28BD6CC1BA0EB9A00861787 /* SpeechKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,20 @@
 		F28BD6991BA0E7E100861787 = {
 			isa = PBXGroup;
 			children = (
+				F28BD6E51BA0EC8100861787 /* CoreGraphics.framework */,
+				F28BD6E31BA0EC7300861787 /* Foundation.framework */,
+				F28BD6CD1BA0EC0000861787 /* AudioToolbox.framework */,
+				F28BD6CE1BA0EC0000861787 /* AudioUnit.framework */,
+				F28BD6CF1BA0EC0000861787 /* AVFoundation.framework */,
+				F28BD6D01BA0EC0000861787 /* AVKit.framework */,
+				F28BD6D11BA0EC0000861787 /* CFNetwork.framework */,
+				F28BD6D21BA0EC0000861787 /* CoreAudio.framework */,
+				F28BD6D31BA0EC0000861787 /* CoreAudioKit.framework */,
+				F28BD6D41BA0EC0000861787 /* CoreFoundation.framework */,
+				F28BD6D51BA0EC0000861787 /* Security.framework */,
+				F28BD6D61BA0EC0000861787 /* SystemConfiguration.framework */,
+				F28BD6D71BA0EC0000861787 /* UIKit.framework */,
+				F28BD6CB1BA0EB9A00861787 /* SpeechKit.framework */,
 				F28BD6A41BA0E7E100861787 /* Lab2 */,
 				F28BD6BE1BA0E7E100861787 /* Lab2Tests */,
 				F28BD6A31BA0E7E100861787 /* Products */,
@@ -96,6 +148,9 @@
 		F28BD6A51BA0E7E100861787 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F28BD6ED1BA0EFB300861787 /* earcon_cancel.wav */,
+				F28BD6EE1BA0EFB300861787 /* earcon_done_listening.wav */,
+				F28BD6EF1BA0EFB300861787 /* earcon_listening.wav */,
 				F28BD6A61BA0E7E100861787 /* Info.plist */,
 				F28BD6A71BA0E7E100861787 /* main.m */,
 			);
@@ -201,6 +256,9 @@
 			files = (
 				F28BD6B11BA0E7E100861787 /* Main.storyboard in Resources */,
 				F28BD6B61BA0E7E100861787 /* LaunchScreen.xib in Resources */,
+				F28BD6F11BA0EFB300861787 /* earcon_done_listening.wav in Resources */,
+				F28BD6F01BA0EFB300861787 /* earcon_cancel.wav in Resources */,
+				F28BD6F21BA0EFB300861787 /* earcon_listening.wav in Resources */,
 				F28BD6B31BA0E7E100861787 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +407,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DragonMobileSDK_1.4.19",
+				);
 				INFOPLIST_FILE = Lab2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +421,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DragonMobileSDK_1.4.19",
+				);
 				INFOPLIST_FILE = Lab2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
